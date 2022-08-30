@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #23C916;
+    text-align: center;
+    background-color: #210F0F;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+element.style {
+    background-color: #210F0F;
+}
+#contactform{
+	background-color: #23C916;
+	width: 500px;
+	padding: 20px;
+	margin: 60px auto;
+	border-radius: 20px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 20px;
+	color: #2D1B0A;
+}
+#contactform input,
+#contactform select,
+#contactform textarea,
+#contactform label{
+		font-size: 15px;
+		margin-bottom: 1px;
+		font-family: Arial, San-serif;
+		align-content: center;
+}
+#contactform input,
+#contactform select,
+#contactform textarea{
+	width: 320px;
+	background-color: #E4FCBB;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	align-items: flex-end;
+}
+#contactform input:focus,
+#contactform select:focus,
+#contactform textarea:focus{
+	background-color: #8DEA5A;
+}
+#contactform textarea{
+	height: 100px;
+	width: 400px}
+#contactform #submit{
+	width: 200px;
+	color: #2D1B0A;
+	border: none;
+	background-color: #16390C;
+	margin-left: 30%;
+}
+#contactform #submit:hover{
+	background-color: #8DEA5A;
+	color: #2D1B0A;
+}
+input:required,
+textarea:required{
+	box-shadow: none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none}
+#failure, #success{
+	color: #2D1B0A;
+	display: none}
+.container{
+	background-color: #FFFFFF;
+}
